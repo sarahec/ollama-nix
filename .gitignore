@@ -1,0 +1,8 @@
+.devenv
+.direnv
+.downloads
+data
+outputs
+*.pyc
+__pycache_
+.pytest_cache
