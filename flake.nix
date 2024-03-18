@@ -52,7 +52,7 @@
           config = {
             allowUnfree = true;
             allowBroken = false;
-            cudaSupport = true;
+            cudaSupport = false;
           };
         };
 
@@ -95,7 +95,7 @@
           # };
 
           packages = [
-            (pkgs.ollama.override { enableCuda = true; })
+            pkgs.ollama
           ];
 
           scripts = {
